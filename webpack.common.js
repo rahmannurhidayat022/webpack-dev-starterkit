@@ -6,8 +6,10 @@ module.exports = {
 		app: './src/index.js',
 	},
 	output: {
+		publicPath: './',
 		filename: '[name].[contenthash].js',
 		path: path.resolve(__dirname, 'dist'),
+		assetModuleFilename: 'images/[name][ext][query]',
 		clean: true,
 	},
 	plugins: [
@@ -28,6 +30,14 @@ module.exports = {
 						presets: ['@babel/preset-env'],
 					},
 				},
+			},
+			{
+				test: /\.(ico|png|svg|jpg|jpeg|gif)$/i,
+				type: 'asset/resource',
+			},
+			{
+				test: /\.(woff|woff2|eot|ttf|otf)$/i,
+				type: 'asset/resource',
 			},
 		],
 	},
