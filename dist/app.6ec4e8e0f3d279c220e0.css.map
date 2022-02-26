@@ -1,0 +1,1 @@
+{"version":3,"file":"app.6ec4e8e0f3d279c220e0.css","mappings":"AAAA,EACC,qBACD,CAEA,EACC,SACD","sources":["webpack://webpack-starter-kit/./src/styles/style.css"],"sourcesContent":["* {\r\n\tbox-sizing: border-box;\r\n}\r\n\r\np {\r\n\tcolor: red;\r\n}\r\n"],"names":[],"sourceRoot":""}
