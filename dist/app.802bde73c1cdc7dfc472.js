@@ -1,0 +1,2 @@
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(function(){var e=document.createElement("p");e.textContent="Hello webpack!",document.body.append(e)}))})();
+//# sourceMappingURL=app.802bde73c1cdc7dfc472.js.map
